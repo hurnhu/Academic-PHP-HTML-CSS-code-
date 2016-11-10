@@ -1,0 +1,28 @@
+/*
+*I made a some what column row system by adjusting width, height, and applying float to button and div
+*each new div is a new row which will fill 100% of the width and 25% of the height of the screen
+*while each button occupies 25% of the dive, since their is 4 of them it splits it evenly between them
+*
+*the text box that shows the answer also is full width, right aligned, and with XX large text
+*/
+button {
+    width: 25%;
+    height: 100px;
+    float: left;
+    font-size: xx-large;
+}
+
+div {
+    width: 100%;
+    height: 25%;
+    float: left;
+}
+
+input {
+    width: 49%;
+    height: 100px;
+    font-size: x-large;
+    text-align: right;
+    float: left;
+}
+

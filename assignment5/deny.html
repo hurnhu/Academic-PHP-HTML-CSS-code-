@@ -1,0 +1,21 @@
+<!-- doctype and header were taken from one page php + html assignment in class -->
+<!DOCTYPE html>
+
+<head>
+    <title>ATM</title>
+</head>
+<body>
+
+
+<div>
+    <!-- show the error message and display the webm to the user -->
+    <h1>YOU HAVE BEEN LOCKED OUT. <br/> PLEASE ENJOY THIS VIDEO</h1>
+
+    <!-- make sure the video will scale with browser size. its set to auto play on page load, its muted,
+     and will loop when it reaches the end and show the controls.
+     webm should play on all browsers, but if it doesn't it will on chrome-->
+    <video width="80%" height="auto" autoplay muted loop controls>
+        <source src="media/404.webm" type="video/webm"/>
+    </video>
+</div>
+</body>

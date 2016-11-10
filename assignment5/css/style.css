@@ -1,0 +1,21 @@
+/**
+*below code to completely center something on the page was obtained from
+https://css-tricks.com/centering-css-complete-guide/
+*/
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*
+all input fields should have a grey border
+the box and text should also be larger
+*/
+input {
+    border-color: grey;
+    height: 30%;
+    width: auto;
+    font-size: larger;
+}
